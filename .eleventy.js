@@ -10,21 +10,27 @@ export default function (eleventyConfig) {
               dialog[open] {
                 animation: open .2s ease-out forwards;
                 opacity: 1;
+                padding 0;
                 margin-inline: auto;
                 margin-block: auto;
                 border: none;
-                width: 60vw;
-                box-shadow: 2px 2px 5px 1px var(--shadow);
+                width: 80vw;
+                background: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 &:focus {
                   outline: none;
                 }
                 & img {
-                  margin: 0 !important;
+                  margin: 0 auto !important;
                   border-radius: 0!important;
                   max-width: 100%;
-                  display: block;
-                  width: auto;
+                  max-height: 80vh;
+                  width: 100%;
                   height: auto;
+                  display: block;
+                  object-fit: contain;
                 }
               }
               @media (width < 1000px) {
