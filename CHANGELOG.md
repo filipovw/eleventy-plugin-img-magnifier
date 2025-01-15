@@ -1,3 +1,7 @@
+## [1.0.6] - 2025-01-15
+### Fixed
+- fix(img display adapting to various img sizes)
+
 ## [1.0.5] - 2025-01-11
 ### Fixed
 - fix(ensuring DOMContentLoaded before running the script)
