@@ -3,7 +3,6 @@
   "version": "1.0.5",
   "description": "zoom image to fullscreen",
   "main": ".eleventy.js",
-  "type": "module",
   "keywords": [
     "eleventy-plugin",
     "eleventy",
