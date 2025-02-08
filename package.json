@@ -3,6 +3,9 @@
   "version": "1.0.5",
   "description": "zoom image to fullscreen",
   "main": ".eleventy.cjs",
+  "exports": {
+    ".": "./.eleventy.cjs"
+  },
   "keywords": [
     "eleventy-plugin",
     "eleventy",
